@@ -1,6 +1,7 @@
 # ocrtool
 使用百度ORC做的照片转文字
 
+![](http://oav6fgfj1.bkt.clouddn.com/baidu_ocr6ad619e3.png)
 
 # 缘起
 我有读书摘记的习惯，平时逛书店，遇到有意思的段落会用手机拍下
@@ -21,3 +22,6 @@
 
 # 说明
 百度的ocr似乎已经在百度apistore中下架了，不过使用还正常
+
+# 吐槽
+github为何要转储图片和动图。。
