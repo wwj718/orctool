@@ -22,7 +22,7 @@ OCR(Optical Character Recognition, 光学字符识别)
 # todo
 *  作为云服务，或是bot
 *  使用Tesseract替代baidu-ocr
-    *  brew reinstall tesseract --all-languages --with-training-tools  
+    *  brew reinstall tesseract --with-all-languages // --with-training-tools 比较慢 
         *  tesseract -l chi_sim /tmp/test.jpg  output 
     *  https://github.com/tmbdev/ocropy
     
