@@ -22,7 +22,11 @@ OCR(Optical Character Recognition, 光学字符识别)
 # todo
 *  作为云服务，或是bot
 *  使用Tesseract替代baidu-ocr
-*   *  https://github.com/tmbdev/ocropy
+    *  brew reinstall tesseract --all-languages --with-training-tools  
+        *  tesseract -l chi_sim /tmp/test.jpg  output 
+    *  https://github.com/tmbdev/ocropy
+    
+
 # 说明
 百度的ocr似乎已经在百度apistore中下架了，不过使用还正常
 
