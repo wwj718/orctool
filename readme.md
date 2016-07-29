@@ -14,7 +14,7 @@
 # 使用  
 *  pip install ocrtool 
 *  创建`~/.ocrtool.yml`，登录你的百度开发者账号，获得你的apikey，写入`~/.ocrtool.yml`，形如：`apikey: xxx`
-* ocrtool /tmp/text.jpg
+* ocrtool /tmp/text.jpg //目前只支持jpg，其他格式可以自行转化为jpg，命令行工具参考[使用ImageMagick在命令行下处理图片](http://blog.just4fun.site/use-ImageMagick.html)
 
 
 # todo
