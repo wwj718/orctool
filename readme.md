@@ -10,6 +10,8 @@
 
 日积月累这类`照片摘记`让人望而生畏，要手动敲成文字，工作量着实不小，弃之又可惜，所以写了这个图片转文字的工具
 
+### OCR
+OCR(Optical Character Recognition, 光学字符识别) 
 
 # 使用  
 *  pip install ocrtool 
@@ -18,8 +20,9 @@
 
 
 # todo
-作为云服务，或是bot
-
+*  作为云服务，或是bot
+*  使用Tesseract替代baidu-ocr
+*   *  https://github.com/tmbdev/ocropy
 # 说明
 百度的ocr似乎已经在百度apistore中下架了，不过使用还正常
 
