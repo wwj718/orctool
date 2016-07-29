@@ -7,13 +7,14 @@ import os
 import base64
 import json
 import yaml
+
 # 其他
 # https://github.com/tesseract-ocr/tesseract
 # https://github.com/tmbdev/ocropy
 from os.path import expanduser,join
 
 home = expanduser("~")
-with open(join(home,".img2txt.yml")) as f:
+with open(join(home,".ocrtool.yml")) as f:
     config = yaml.load(f)
     _apikey = config["apikey"]
 

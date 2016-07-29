@@ -10,6 +10,7 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
 requirements = [
+    "requests",
     # TODO: put package requirements here
 ]
 
@@ -19,7 +20,7 @@ test_requirements = [
 
 setup(
     name='ocrtool',
-    version='0.1.0',
+    version='0.1.1',
     description="change image to txt with baidu-ocr",
     long_description=readme + '\n\n' + history,
     author="wenjie wu",
